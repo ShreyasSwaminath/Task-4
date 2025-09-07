@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas Swaminath Subramanian | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO SHREYAS SWAMINATH SUBRAMANIAN'S PORTFOLIO</h1>
+        <p>Currently Front-End Developer</p>
+        <button id="themeToggle"><i class="fas fa-moon"></i> Switch Theme</button>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm <strong>Shreyas Swaminath Subramanian</strong>, a passionate developer with a creative edge and strong problem-solving skills.</p>
+            <p>I specialize in <strong>HTML, CSS, JavaScript, DBMS, and Python</strong>, and I thrive on building visually delightful and interactive web experiences.</p>
+            <p>Beyond code, I enjoy exploring new technologies, contributing to open source projects, and continuously expanding my skill set.</p>
+        </section>
+
+        <section class="skills-section">
+            <h3>My Technical Skillset</h3>
+            <p>Below are the languages and tools I'm proficient in, represented visually to showcase my comfort level with each.</p>
+            
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="html"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="css"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>DBMS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="js"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="core-java"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Javascript</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="python"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h2>Projects I've Built</h2>
+            <p>Here are some of the projects I've worked on, each one helping me grow as a developer:</p>
+            
+            <ul class="project-list">
+                <li><span>➤</span> IPL/UCL Points Table Using Html</li>
+                <li><span>➤</span> Front End Web Development</li>
+                <li><span>➤</span> Antivirus Tool Using MAchine Learning</li>
+                <li><span>➤</span> Personal Portfolio Website</li>
+            </ul>
+        </section>
+
+        <section id="todo">
+            <h2>To-Do List</h2>
+            <div class="todo-app">
+                <div class="todo-input">
+                    <input type="text" id="taskInput" placeholder="Add a new task...">
+                    <button id="addTaskBtn">Add Task</button>
+                </div>
+                <ul id="taskList"></ul>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Gaming Products</h2>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="games">Games</option>
+                    <option value="consoles">Consoles</option>
+                </select>
+                <select id="sortOption">
+                    <option value="default">Default Sorting</option>
+                    <option value="price">Sort by Price</option>
+                    <option value="rating">Sort by Rating</option>
+                </select>
+            </div>
+            <div id="productGrid" class="product-grid"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="socials">
+                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fas fa-envelope"></i> Email Me</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy;This Portfolio Was Designed By Shreyas Swaminath Subramanian</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
